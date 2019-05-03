@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: _posts/2019-05-03-vagrant-install-use.md
+title: 2019-05-03-vagrant-install-use.md
 date: '2019-05-03'
 tags: vagrant
 ---
