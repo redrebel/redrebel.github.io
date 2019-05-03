@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 2019-05-03-vagrant-install-use.md
+title: Vagrant 설치 및 활용
 date: '2019-05-03'
 tags: vagrant
 ---
