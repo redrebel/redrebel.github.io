@@ -25,9 +25,9 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - Github: "https://github.com/redrebel/"
+    - PT : "https://cjred.net/pt/"
+    - Wedding: "https://cjred.net/wedding/"
   Author's home: "http://cjred.net"
 
 # Image to show in the navigation bar - image must be a square (width = height)
