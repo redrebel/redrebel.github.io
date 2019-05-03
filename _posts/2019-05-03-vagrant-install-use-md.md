@@ -5,8 +5,6 @@ title: Vagrant 설치 및 활용
 date: '2019-05-03'
 tags: vagrant
 ---
-## Vagrant 설치 및 활용
-
 먼저 Vagrant의 기본 가상화 프로바이더인 VirtualBox를 설치
 https://www.virtualbox.org
 
