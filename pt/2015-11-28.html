@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>글로 배운 클라우드(PaaS) 직접 사용해보기.</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>글로 배운 클라우드(PaaS) 직접 사용해보기.</h1>
+					<h3>자바카페 2015년 Open세미나</h3>
+					<h3>http://www.cjred.net/pt/2015-11-28.html</h3>
+					<p>
+						<small>Created by <a href="http://www.cjred.net">이정근</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<h2>소개 내용</h2>
+					<p>
+						<section data-markdown>
+    				<script type="text/template">
+						- [간략한 PaaS 소개](#paas-intro)
+						- [간략한 OpenShift 소개](#openshift-intro)
+						- [Lab 1 - Web interface 사용](#introduce)
+						- [Lab 2 - rhc 설정하기](#introduce)
+						- [Lab 3 - rhc using](#introduce)
+						- [Lab 4 - STS(Eclipse)에서 OpenShift 사용 소개]()
+					</script>
+					</section>
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Cloud 서비스...</h2>
+						<br>
+						<img data-src="images/image.png">
+					</section>
+					<section>
+						<img data-src="images/Cloud-Difference-Image.png">
+					</section>
+					<section>
+						<h2>PaaS...</h2>
+						<br>
+						<img data-src="images/120613-cloud-paas.jpg"> + <img data-src="images/bluemix.jpeg">
+						<p><a href="http://blog.altoros.com/cf-summit-2014-paas-comparison.html" target="_blank">2014-paas-comparison.html</a></p>
+					</section>
+					<section>
+							<p>이런 분들에게 추천합니다.</p>
+							<ul>
+								<li>실습을 하고 싶은 학생</li>
+								<li>취업을 준비하는 취준생</li>
+								<li>스타트업 업체</li>
+								<li>대용량 서비스를 하는 중견기업</li>
+							</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>OpenShift 소개</h2>
+					<p><img data-src="images/openshift.png"></p>
+					<p>
+						<a href="https://www.openshift.com" target="_blank">https://www.openshift.com</a>
+					</p>
+					</section>
+					<section>
+						<p>공짜.</p>
+						<ul>
+							<li>3개까지 application 생성가능</li>
+							<li>기간은 제한없음.</li>
+							<li>신용카드정보를 요구하지 않음</li>
+						</ul>
+						<p>유료도 있어요.</p>
+						<p><a href="https://www.openshift.com/pricing/index.html" target="_blank">
+							https://www.openshift.com/pricing/index.html</a></p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Lab 1 - Web interface 사용</h2>
+					<section>
+						<p>회원가입</p>
+						<p>
+						<a href="https://www.openshift.com" target="_blank">https://www.openshift.com</a>
+					</p>
+					</section>
+					<section>
+						<ul>
+							<li>application 생성</li>
+							<li>Cartridges 추가</li>
+							<li>Source Download (Git)</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<h2>Lab 2 - rhc setting</h2>
+					<section>
+						<p>Ruby , Git, rhc (OpenShift Client Tool) 설치하기</p>
+						<ul>
+							<li>Windows <a href="http://blog.cjred.net/installing-the-client-tools-on-windows/" target="_blank">
+								http://blog.cjred.net/installing-the-client-tools-on-windows/</a></li>
+	 						<li>OSX <a href="http://blog.cjred.net/installing-the-client-tools-on-osx/" target="_blank">
+								http://blog.cjred.net/installing-the-client-tools-on-osx/</a></li>
+	 						<li>etc <a href="https://developers.openshift.com/en/getting-started-overview.html#_by_operating_system" target="_blank">
+								https://developers.openshift.com/en/getting-started-overview.html#_by_operating_system</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<p>rhc setup</p>
+						<p><a href="http://blog.cjred.net/openshift-rhc-setup/" target="_blank">
+							http://blog.cjred.net/openshift-rhc-setup/
+						</a></p>
+
+					</section>
+				</section>
+
+				<section>
+					<h2>Lab 3 - rhc using</h2>
+					<section data-markdown>
+					<script type="text/template">
+-  생성가능한 Application 목록 확인
+```
+$ rhc app create
+```
+- Application 생성
+```
+$ rhc app-create [appname] [cartridge-name]
+ex) rhc app-create edudemo nodejs-0.10
+```
+- rhc를 실행한 경로 밑으로 Application이 생성된다.
+```
+cd [appname]
+ls -al
+```
+					</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+- 사용자가 생성한 Application 목록 확인
+```
+rhc apps
+```
+- 사용자가 생성한 Application 삭제
+```
+rhc app-delete [appname]
+```
+						</script>
+					</section>
+				</section>
+
+
+				<section>
+					<h2>STS(Eclipse)에서 OpenShift 사용 소개</h2>
+					<a href="http://blog.cjred.net/setup-sts-eclipse-openshift-openpaas/" target="_blank">
+					http://blog.cjred.net/setup-sts-eclipse-openshift-openpaas/</a>
+				</section>
+
+				<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+					<h2>... 편하지 않나요?!</h2>
+				</section>
+
+				<section>
+					<section>
+						<p>하나 더...</p>
+						<h2>OpenPaaS 소개</h2>
+						<p><a href="https://openpaas.cloudsc.kr/" target="_blank">
+						https://openpaas.cloudsc.kr/
+						</a></p>
+					</section>
+					<section>
+						<p>
+							장점
+							</p><ul>
+								<li>5개까지 Application 생성가능</li>
+								<li>국내 개발환경 지원, 전자정부프레임워크 , Cubrid 등</li>
+								<li>5개까지 Application 생성가능</li>
+								<li>트래픽, 저장공간 등 무한사용가능</li>
+							</ul>
+						
+					</section>
+					<section>
+						<p>
+							생각해볼점
+						</p><ul>
+							<li>시스템 업그레이드가 되지 않음 (JDK 1.6)</li>
+							<li>관리 및 유지보수 소홀</li>
+							<li>불안.....</li>
+						</ul>
+					
+					</section>
+				</section>
+
+				<section>
+					<h2>감사합니다...</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
