@@ -120,7 +120,7 @@ public static void main(String[] args) {
         System.out.println("Removing the price of Banana: " + items.remove("Banana"));
         System.out.println("Removing the price of PineApple: " + items.remove("PineApple"));
         System.out.println("Map after removals: " + items);
-    }
+}
 
 ```
 
@@ -150,12 +150,8 @@ public class MyHashMap {
 ```
 
 
-put함수를 구현한다.
+put함수를 구현한다. 해시함수의 결과값인 index를 이미 사용하고 있다면 링크드리스트의 마지막에 새로운 Entry를 추가한다.
 ```java
-public class MyHashMap {
- 	.
-    .
-    ...
 	public void put(String key, String value){
         int index = hash(key);
         Entry entry = new Entry();
@@ -172,10 +168,34 @@ public class MyHashMap {
             curEntry.next = entry;
         }
     }
-}
 ```
 
+remove함수를 구현한다. key와 일치하는 Entry를 링크드리스트에서 제거한다.
+```java
+    public boolean remove(String key){
+        int index = hash(key);
 
+        if(buckets[index] != null){
+            Entry curEntry = buckets[index];
+            // found in first entry
+            if(curEntry.key == key) {
+                buckets[index] = curEntry.next;
+                return true;
+            }
+
+            while (curEntry.next != null) {
+                if(curEntry.next.key == key) {
+                    curEntry.next = curEntry.next.next;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+```
+
+나머지 함수들을 모두 구현한 최종 소스
 ```java
 
 public class MyHashMap {
@@ -288,25 +308,21 @@ public class MyHashMap {
     }
 
     public static void main(String[] args) {
-        MyHashMap roleSalary = new MyHashMap();
-        roleSalary.put("Senior", "50000");
-        roleSalary.put("Junior", "30000");
-        roleSalary.put("Architect", "80000");
-        roleSalary.put("CTO", "100000");
+        MyHashMap items = new MyHashMap();
+        items.put("Apple", "50000");
+        items.put("Banana", "30000");
+        items.put("Mellon", "80000");
+        items.put("PineApple", "100000");
 
-        System.out.println("Initial map" + roleSalary);
-        System.out.println("The salary of the CTO is: " + (roleSalary.containsKey("CTO") ? roleSalary.get("CTO") : "Unknown"));
-        System.out.println("The salary of the CEO is: " + (roleSalary.containsKey("CEO") ? roleSalary.get("CEO") : "Unknown"));
-        System.out.println("Removing the salary of Junior: " + roleSalary.remove("Junior"));
-        System.out.println("Removing the salary of the CEO: " + roleSalary.remove("CEO"));
-        System.out.println("Map after removals: " + roleSalary);
-    }
-
+        System.out.println("Initial map" + items);
+		System.out.println("The price of Mango is: " + (items.containsKey("Mango") ? items.get("Mango") : "Unknown"));
+        System.out.println("The price of PineApple is: " + (items.containsKey("PineApple") ? items.get("PineApple") : "Unknown"));
+        
+        System.out.println("Removing the price of Banana: " + items.remove("Banana"));
+        System.out.println("Removing the price of PineApple: " + items.remove("PineApple"));
+        System.out.println("Map after removals: " + items);
+	}
+}
 ```
 
-
-![hashmap-vs-treemap.png]({{site.baseurl}}/img/hashmap-vs-treemap.png)
-
-https://jaybdev.net/2017/06/10/Algorithm-7/
-https://d2.naver.com/helloworld/831311
-https://odol87.tistory.com/3
+화이팅!
