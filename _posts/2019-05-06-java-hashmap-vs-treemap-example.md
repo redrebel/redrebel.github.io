@@ -3,6 +3,11 @@ layout: post
 published: false
 title: 자바 HashMap 과 TreeMap
 ---
+---
+layout: post
+published: false
+title: 자바 HashMap 과 TreeMap
+---
 이전 글에서 다루었듯이 HashMap은 매우 유용한 자료형(?)이다.  
 https://cjred.net/2018-12-03-how-to-use-java-hashmap-effectively/
 
