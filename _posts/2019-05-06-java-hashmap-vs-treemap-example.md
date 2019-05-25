@@ -1,29 +1,29 @@
 ---
 layout: post
 published: false
-title: 자바 HashMap 과 TreeMap
+title: Java의 HashMap 과 TreeMap
 ---
 
-이전 글에서 다루었듯이 HashMap은 매우 유용한 자료형(?)이다.  
-https://cjred.net/2018-12-03-how-to-use-java-hashmap-effectively/
+[이전](https://cjred.net/2018-12-03-how-to-use-java-hashmap-effectively/) 글에서 다루었듯이 HashMap은 매우 유용한 자료형(?)이다. HashMap의 개념에 대하여 나름 쉽게 정리 역시 앞서 글에서 정리되어 있으므로 따로 반복하지 않겠다.
 
-하지만 해시맵관련하여 안좋은 추억이 있다.  
-모서비스 회사(회사명을 은유적이라도 나타내고 싶었지만 그러지 않기로...)에 손코딩면접에서 면접관이 나에게 HashTable을 작성해보라고 하였다.
+해시테이블과 관련된 안좋은 기억이 있는데 쓰다보니 내용이 길어져서 관련된 글은 따로 작성하겠다.
 
-HashMap 아니고 HashTable이라니...
-역시 수준있는 회사인가?
+그럼... 본글에서는 어떤 내용을 담을 것인가...
 
-하지만 이야기를 하고 화이트보드에 손코딩을 하면서 먼가 이상하다는 생각이 들었다.
-하지만 나는 무척이나 긴장을 하고 있었고 알고있는 지식이 너무 부족해서(그래서 떨어진거지머.)
-설마 혹시 면접관이 말하는게 해시맵을 말하는 것인가? 라는 생각조차 하지 못했다.
+면접에서 "HashMap 아세요?" 로 시작하는 패턴(?)에 어떻게 대응 할지에 대하여 적어 보겠다.
+사실 면접에서 HashMap에 대하여 물어보는 것에 대하여 회의를 느끼는 1인이다.(이유는 다음에...)
 
-https://jaybdev.net/2017/06/10/Algorithm-7/
-https://odol87.tistory.com/3
+Java에서 HashMap과 HashTable의 비교하는 글은 인터넷에 많이 있으므로 따로 정리하지 않겠다.
 
 
 ![hashmap-vs-treemap.png]({{site.baseurl}}/img/hashmap-vs-treemap.png)
 
+https://jaybdev.net/2017/06/10/Algorithm-7/
+https://d2.naver.com/helloworld/831311
+https://odol87.tistory.com/3
 
-## A New Post
+해시충돌
+- Open Addressing
+- Separate Chaining
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Java HashMap에서 사용하는 방식은 Separate Channing.
