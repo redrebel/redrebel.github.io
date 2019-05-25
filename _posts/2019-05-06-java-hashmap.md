@@ -141,16 +141,8 @@ public class MyHashMap {
     public MyHashMap(){
         buckets = new Entry[INITIAL_SIZE];
     }
-}
-```
 
-
-HashMap을 만들려면 해시함수가 필요하다.
-```java
-public class MyHashMap {
- 	.
-    .
-    ...
+  	// HashMap을 만들려면 해시함수가 필요하다.
     private int hash(String key) {
         return key == null ? 0 : Math.abs(key.hashCode() % buckets.length);
     }
@@ -158,8 +150,13 @@ public class MyHashMap {
 ```
 
 
+put함수를 구현한다.
 ```java
-public void put(String key, String value){
+public class MyHashMap {
+ 	.
+    .
+    ...
+	public void put(String key, String value){
         int index = hash(key);
         Entry entry = new Entry();
         entry.key = key;
@@ -175,7 +172,9 @@ public void put(String key, String value){
             curEntry.next = entry;
         }
     }
+}
 ```
+
 
 ```java
 
@@ -311,4 +310,3 @@ public class MyHashMap {
 https://jaybdev.net/2017/06/10/Algorithm-7/
 https://d2.naver.com/helloworld/831311
 https://odol87.tistory.com/3
-
