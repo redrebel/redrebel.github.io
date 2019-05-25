@@ -1,7 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 title: Java의 HashMap에 대하여 딱 이만큼만
+tags: hashmap
+date: '2019-05-06'
+subtitle: HashMap에 대하여 자세히는 다루지는 않고 면접에 대응할 수 있는 수준까지만 정리하였다.
 ---
 
 [이전](https://cjred.net/2018-12-03-how-to-use-java-hashmap-effectively/) 글에서 다루었듯이 HashMap은 매우 유용한 자료형(?)이다.  
