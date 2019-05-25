@@ -127,14 +127,14 @@ public static void main(String[] args) {
 이제는 하나씩 구현해 나가자. MyHashMap을 구현하기 시작한다.
 ```java
 public class MyHashMap {
-  	// 
+  	// key가 array의 index가 아닌것 처럼 value도 링크드리스트class 의 value로 들어간다.
 	class Entry {
-        private String key;
+        private String key;	
         private String value;
-        private Entry next;
+        private Entry next;	// Separate Channing를 위한
     }
 
-    private final int INITIAL_SIZE = 10;
+    private final int INITIAL_SIZE = 10; 	// 초기사이즈
 
     private Entry[] buckets;
 
@@ -147,11 +147,17 @@ public class MyHashMap {
 
 HashMap을 만들려면 해시함수가 필요하다.
 ```java
+public class MyHashMap {
+ 	.
+    .
+    ...
     private int hash(String key) {
         return key == null ? 0 : Math.abs(key.hashCode() % buckets.length);
     }
-
+}
 ```
+
+
 ```java
 public void put(String key, String value){
         int index = hash(key);
