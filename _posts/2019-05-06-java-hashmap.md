@@ -146,6 +146,7 @@ public class MyHashMap {
     }
 
   	// HashMap을 만들려면 해시함수가 필요하다.
+    // hashCode() 함수는 int 값을 리턴하는데, 기본적으로 객체의 메모리주소를 사용한다.
     private int hash(String key) {
         return key == null ? 0 : Math.abs(key.hashCode() % buckets.length);
     }
