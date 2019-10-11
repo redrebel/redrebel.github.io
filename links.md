@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 빨강토끼의 블로그
-subtitle: 어제보다 좀 더 나은 나를 위해
+title: Links
+subtitle: 참고할만한 링크를 정리
 ---
 
 # Back-End
