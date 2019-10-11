@@ -28,6 +28,7 @@ navbar-links:
     - Github: "https://github.com/redrebel/"
     - PT : "https://cjred.net/pt/"
     - Wedding: "https://cjred.net/wedding/"
+    - Links: "https://cjred.net/links/"
   Author's home: "http://cjred.net"
 
 # Image to show in the navigation bar - image must be a square (width = height)
