@@ -11,4 +11,17 @@ subtitle: 참고할만한 링크를 정리
 원문 : [Oracle / Code Conventions for JavaTM Programming Language / 1999-4-20](https://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)  
 번역 : [Kwangshin's Positive Blog, Java Code Conventions / 자바 코딩 규칙, 2015-2-10](http://kwangshin.pe.kr/blog/java-code-conventions-%EC%9E%90%EB%B0%94-%EC%BD%94%EB%94%A9-%EA%B7%9C%EC%B9%99/)
 
+# Spring Boot
+[Spring Boot 로 만드는 Upload와 Download Rest API 예제-01](https://pangsblog.tistory.com/68?category=807782)
 
+# 외국어
+work vs walk 의 발음차이  
+- [https://www.youtube.com/watch?v=yuOmySegOz8](https://www.youtube.com/watch?v=yuOmySegOz8)  
+- [https://www.youtube.com/watch?v=vIFAw_b5i0U](https://www.youtube.com/watch?v=vIFAw_b5i0U)  
+- [https://www.youtube.com/watch?v=AX0QM6xRCT4](https://www.youtube.com/watch?v=AX0QM6xRCT4)  
+- [https://www.youtube.com/watch?v=slq3oXRF3EA](https://www.youtube.com/watch?v=slq3oXRF3EA)
+
+# 개발자에게 도움이 될만한 글
+[How to Learn Constantly (Without Burning Out)](https://www.freecodecamp.org/news/how-to-constantly-learn-without-burning-out/)
+[What I've Learned in My First Year as a Software Engineer](https://www.freecodecamp.org/news/my-first-year-as-a-software-engineer/)  
+[https://www.youtube.com/watch?v=N9RP6yE_2co](https://www.youtube.com/watch?v=N9RP6yE_2co)
