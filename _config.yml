@@ -24,11 +24,12 @@ description: 어제보다 좀 더 나은 나를 위해.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Tags: "tags"
   Resources:
     - Github: "https://github.com/redrebel/"
     - PT : "https://cjred.net/pt/"
     - Wedding: "https://cjred.net/wedding/"
-    - Links: "https://cjred.net/links/"
+    - Links: "links"
   Author's home: "http://cjred.net"
 
 # Image to show in the navigation bar - image must be a square (width = height)
