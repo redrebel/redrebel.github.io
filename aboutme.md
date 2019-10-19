@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Software Engineer로 장수하고 싶아 노력하고 있다.
+subtitle: Software Engineer로 장수하고 싶어 노력하고 있다.
 ---
 
 My name is Junggeun Lee. I have the following qualities:
@@ -12,3 +12,4 @@ My name is Junggeun Lee. I have the following qualities:
 ### my history
 
 I work for eBay korea as Software Engineer.
+- ECommerce Backend Devoper (Payment)
