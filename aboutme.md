@@ -3,6 +3,7 @@ layout: page
 title: About me
 subtitle: Software Engineer로 장수하고 싶어 노력하고 있다.
 ---
+[linkedin](https://www.linkedin.com/in/junggeun-lee/)
 
 My name is Junggeun Lee. I have the following qualities:
 
