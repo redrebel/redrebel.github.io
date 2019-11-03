@@ -9,6 +9,10 @@ subtitle: 참고할만한 링크를 정리
 - [의도적 수련 1 – 고수, 무술과 프로그래밍에 대한 소고](https://blog.insightbook.co.kr/2018/12/10/%EC%9D%98%EB%8F%84%EC%A0%81-%EC%88%98%EB%A0%A8-1-%EA%B3%A0%EC%88%98-%EB%AC%B4%EC%88%A0%EA%B3%BC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%97%90-%EB%8C%80%ED%95%9C-%EC%86%8C%EA%B3%A0/)  
 - [의도적 수련 2 – 프로그래머에게 적합한 의도적 수련](https://blog.insightbook.co.kr/2018/12/06/%ec%9d%98%eb%8f%84%ec%a0%81-%ec%88%98%eb%a0%a8-2-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ec%97%90%ea%b2%8c-%ec%a0%81%ed%95%a9%ed%95%9c-%ec%9d%98%eb%8f%84%ec%a0%81-%ec%88%98%eb%a0%a8/)
 
+# Front-End
+[jsonplaceholder](https://jsonplaceholder.typicode.com/) :
+테스트용도로 지원하는 가짜 REST API,  [페이크 REST API 사이트](https://zetawiki.com/wiki/%ED%8E%98%EC%9D%B4%ED%81%AC_REST_API_%EC%84%9C%EB%B2%84_JSONPlaceholder)
+
 # Back-End
 [백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170?fbclid=IwAR0Z-RsK8Ui8h5CHUG8awlmEFD7S24RF9Cpi54dVEEYR-7z7hOueBKYn58M)
 
