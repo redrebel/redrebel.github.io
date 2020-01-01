@@ -24,9 +24,10 @@ Repository를 생성하고 Settings > GitHub Pages에서 Source 를 master branc
 
 Google 에서 `GitHub Jekyll blog Themes` 등 으로 검색을 한다.
 
-http://www.jekyllnow.com/ <-- 30초 안으로 블로그 생성이 가능하다고 한다.
+[http://www.jekyllnow.com/](http://www.jekyllnow.com/) <-- 30초 안으로 블로그 생성이 가능하다고 한다.
 
-https://deanattali.com/beautiful-jekyll/ <-- 5분이내로 블로그 생성가능하다고 한다.(저는 이것을 사용. 하지만 세부 설정까지 하려면 시간이 좀 더 걸림)
+[https://deanattali.com/beautiful-jekyll/](https://deanattali.com/beautiful-jekyll/) <-- 5분이내로 블로그 생성가능하다고 한다.  
+(나는 이것을 사용. 하지만 세부 설정까지 하려면 시간이 좀 더 걸림)
 
 
 
