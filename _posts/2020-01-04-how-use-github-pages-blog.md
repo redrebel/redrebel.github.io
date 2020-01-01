@@ -22,7 +22,7 @@ Repository를 생성하고 Settings > GitHub Pages에서 Source 를 master branc
 
 > 개인적으로 Ghost Theme ( [https://github.com/jekyller/jasper2](https://github.com/jekyller/jasper2) ) 를 좋아하지만 사용하기가 번거로워서 손쉬운 다른 테마를 사용 중 이다.
 
-Google 에서 `GitHub Jekyll blog Themes` 등 으로 검색을 한다.
+Google 에서 `GitHub Jekyll blog Themes` 등 으로 검색을 한다.  
 
 [http://www.jekyllnow.com/](http://www.jekyllnow.com/) <-- 30초 안으로 블로그 생성이 가능하다고 한다.
 
@@ -75,7 +75,7 @@ url을 지정하거나 로컬파일을 지정 가능하다.
 ## 3.3. prose.io 를 사용하는 방법
 [https://prose.io](https://prose.io/)
 
-prose.io 는 웹에서 GitHub 의 content를 관리( 파일을 생성, 수정, 삭제)하는 서비스를 제공하는 사이트이다.
+prose.io 는 웹에서 GitHub 의 content를 관리( 생성, 수정, 삭제)하는 서비스를 제공하는 사이트이다.
 
 주로 GitHub Pages 에서 Jekyll 사이트와 Markdown content를 편리하게 관리 할 수 있다.
 
