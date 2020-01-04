@@ -66,7 +66,7 @@ Typora를 사용하면 편집창에서 바로 결과를 보면서 Markdown 문�
 
 이미지 삽입 `![]()` 을 입력하면 자동으로 이미지를 지정하는 기능이 나타낸다.
 
-![20200104-blog-02.png](https://cjred.net/img/blog/20200104-blog-01.png)
+![20200104-blog-02.png](https://cjred.net/img/blog/20200104-blog-02.png)
 
 url을 지정하거나 로컬파일을 지정 가능하다.
 
