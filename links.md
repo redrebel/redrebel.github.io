@@ -48,3 +48,5 @@ work vs walk 의 발음차이
 [What I've Learned in My First Year as a Software Engineer](https://www.freecodecamp.org/news/my-first-year-as-a-software-engineer/)  
 [https://www.youtube.com/watch?v=N9RP6yE_2co](https://www.youtube.com/watch?v=N9RP6yE_2co)
 
+# 소스리뷰
+[소스코드 리뷰에 대한 짧은 이야기...](https://brunch.co.kr/@supims/11)
