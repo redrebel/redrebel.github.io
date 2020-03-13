@@ -4,6 +4,7 @@ published: true
 title: GitHub Pages 에 Blog Theme 를 적용하고 글 올리는 방법
 date: '2020-01-04'
 tags: [blog, github, typora, vscode]
+gh-badge: [star, watch, fork, follow]
 ---
 
 > 왜 블로그를 써야 하는 지, GitHub pages 가 무엇인지 등은 다루지 않는다
