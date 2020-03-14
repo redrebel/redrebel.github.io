@@ -61,7 +61,14 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+      <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+      <div style="text-align: center;">
+        <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+          target="_blank">
+          <img
+            src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+        </a>
+      </div>
 		  {% endif %}
         </div>
       </div>
