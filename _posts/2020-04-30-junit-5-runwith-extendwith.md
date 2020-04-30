@@ -1,3 +1,11 @@
+---
+layout: post
+published: true
+title: JUnit5 에서 @RunWith 대신 @ExendWith 사용
+date: '2020-04-30'
+tags: [junit5, test]
+---
+
 Spring5 + JUnit5 에서 테스트를 위하여 @RunWith(SpringRunner.class)를 선언해 사용하려고 하니 
 class를 찾을 수 없다며 JUnit4를 다운받아서 classpath에 추가하라고한다.
 
