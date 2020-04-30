@@ -16,5 +16,7 @@ class를 찾을 수 없다며 JUnit4를 다운받아서 classpath에 추가하�
 <img src="https://cjred.net/img/blog/20200430-blog-02.png" alt="20200430-blog-02.png" style="zoom:50%;" />
 
 
-참고 : https://www.baeldung.com/junit-5-runwith
-
+참고 : 
+- https://www.baeldung.com/junit-5-runwith
+- https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4-tips
+- https://junit.org/junit5/docs/current/user-guide/#running-tests-junit-platform-runner
