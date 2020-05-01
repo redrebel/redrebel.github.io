@@ -19,7 +19,7 @@ class를 찾을 수 없다며 JUnit4를 다운받아서 classpath에 추가하�
 > 추가  
 나중에 안 사실이지만 JUnit5는 JUnit Vintage라는 서브패키지를 통해 자체적으로 하위호환성을 포함하고 있다.  
 내가 @RunWith를 사용할 수 없었던 이유는 아래와 같이 org.junit.vintage:junit-vintage-engine 모듈을 exclude 해주고 있기 때문이다.
-<img src="https://cjred.net/img/blog/20200430-blog-02.png" alt="20200430-blog-03.png" style="zoom:50%;" />
+<img src="https://cjred.net/img/blog/20200430-blog-03.png" alt="20200430-blog-03.png" style="zoom:50%;" />
 
 
 참고 : 
