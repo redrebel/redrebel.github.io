@@ -1,9 +1,9 @@
 ---
 layout: post
 published: true
-title: WARNING: NoClassDefFoundError when using GraphQL Java Tools > 5.4.x
+title: NoClassDefFoundError when using GraphQL Java Tools > 5.4.x
 date: '2020-06-06'
-tags: [react, create-react-app, template]
+tags: [graphql, graphql-java-tools, kotlin]
 ---
 
 https://github.com/graphql-java-kickstart/graphql-spring-boot#graphql-java-tools
