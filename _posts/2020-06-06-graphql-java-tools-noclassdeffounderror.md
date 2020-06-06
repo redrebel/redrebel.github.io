@@ -31,7 +31,7 @@ gradle.properties 에 kotlin 버전을 지정한다.
 
 Using Maven
 
-<properties> 섹션에 kotlin 버전을 지정한다.
+`<properties>` 섹션에 kotlin 버전을 지정한다.
 
 ```xml
 <properties>
