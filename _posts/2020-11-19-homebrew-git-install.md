@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: MacOS 에서 HomeBrew 로 Git Upgrade하기
+title: MacOS 에서 HomeBrew 로 Git Install(Upgrade)하기
 date: "2020-11-19"
 tags: [git, homebrew]
 ---
@@ -10,11 +10,11 @@ github에서 기본branch 를 master에서 main으로 바꾼다고 한다.
 
 [New GitHub Repositories Default to Main Branch](https://www.infoq.com/news/2020/10/github-main-branch/#:~:text=Git%20version%202.28%20introduced%20a,user's%20defaults%20configuration%2C%20or%20systemwide.)
 
-https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/changing-the-default-branch
+[https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/changing-the-default-branch](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/changing-the-default-branch)
 
 이에 따라 git 2.28 이후 버전부터 init 직접 지정할 수 있는 옵션이 추가되었다.
 
-https://github.blog/2020-07-27-highlights-from-git-2-28/
+[https://github.blog/2020-07-27-highlights-from-git-2-28/](https://github.blog/2020-07-27-highlights-from-git-2-28/)
 
 이 기능을 사용하고 싶어서 git를 homebrew를 통해 install 하였다.
 
